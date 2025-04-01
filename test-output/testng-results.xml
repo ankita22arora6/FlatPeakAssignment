@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="5" passed="5" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2025-04-01T20:06:06 IST" name="FlatPeak Test Suite" finished-at="2025-04-01T20:06:23 IST" duration-ms="16496">
+    <groups>
+    </groups>
+    <test started-at="2025-04-01T20:06:06 IST" name="End-to-End Test" finished-at="2025-04-01T20:06:23 IST" duration-ms="16496">
+      <class name="com.FlatPeak.tests.EndToEndTest">
+        <test-method is-config="true" signature="initialSetup()[pri:0, instance:com.FlatPeak.tests.EndToEndTest@59a008ba]" started-at="2025-04-01T20:06:06 IST" name="initialSetup" finished-at="2025-04-01T20:06:22 IST" duration-ms="16268" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialSetup -->
+        <test-method signature="verifyEndTime()[pri:0, instance:com.FlatPeak.tests.EndToEndTest@59a008ba]" started-at="2025-04-01T20:06:22 IST" name="verifyEndTime" finished-at="2025-04-01T20:06:23 IST" duration-ms="83" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyEndTime -->
+        <test-method signature="verifyStartTime()[pri:1, instance:com.FlatPeak.tests.EndToEndTest@59a008ba]" started-at="2025-04-01T20:06:23 IST" name="verifyStartTime" finished-at="2025-04-01T20:06:23 IST" duration-ms="16" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyStartTime -->
+        <test-method signature="verifyCurrencyCode()[pri:2, instance:com.FlatPeak.tests.EndToEndTest@59a008ba]" started-at="2025-04-01T20:06:23 IST" name="verifyCurrencyCode" finished-at="2025-04-01T20:06:23 IST" duration-ms="12" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyCurrencyCode -->
+        <test-method signature="verifyHourlyRatesArePresent()[pri:3, instance:com.FlatPeak.tests.EndToEndTest@59a008ba]" started-at="2025-04-01T20:06:23 IST" name="verifyHourlyRatesArePresent" finished-at="2025-04-01T20:06:23 IST" duration-ms="14" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyHourlyRatesArePresent -->
+        <test-method signature="verifyConfidenceValue()[pri:4, instance:com.FlatPeak.tests.EndToEndTest@59a008ba]" started-at="2025-04-01T20:06:23 IST" name="verifyConfidenceValue" finished-at="2025-04-01T20:06:23 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyConfidenceValue -->
+        <test-method is-config="true" signature="close()[pri:0, instance:com.FlatPeak.tests.EndToEndTest@59a008ba]" started-at="2025-04-01T20:06:23 IST" name="close" finished-at="2025-04-01T20:06:23 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.FlatPeak.tests.EndToEndTest@59a008ba]" started-at="2025-04-01T20:06:23 IST" name="tearDown" finished-at="2025-04-01T20:06:23 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.FlatPeak.tests.EndToEndTest -->
+    </test> <!-- End-to-End Test -->
+  </suite> <!-- FlatPeak Test Suite -->
+</testng-results>
